@@ -37,7 +37,7 @@ public class Portefeuille {
   public boolean achatDevise (double montantEuros){
 	
     this.montant += montantEuros / this.monnaie.getValeurDeJeton();
-    return false;
+    return true;
   }
 
   /**
