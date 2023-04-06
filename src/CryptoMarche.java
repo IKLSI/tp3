@@ -49,10 +49,11 @@ public class CryptoMarche {
         double capital = 0.0;
 
         for (Portefeuille p : portefeuilles) {
-            if (p.getMonnaie().equals(monnaie)) {
-                capital += p.getMontant() * monnaie.getValeurDeJeton();
+            if(p.getMonnaie().equals(monnaie)){
+                capital += p.valeurEnEuros();
             }
         }
+
         return capital;
     }
 
