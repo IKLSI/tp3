@@ -39,3 +39,5 @@ Le dépôt où les modifications sont enregistrées sous **forme de validations 
 **Validation** (commit) qui crée le commit et l’envoie dans le dépôt (commande: `git commit`).
 
 **Récupération** (checkout) qui récupère un snapshot depuis le dépôt vers la copie de travail (commande : `git checkout`).
+
+Nous avons maintenant créé une nouvelle branche de test
