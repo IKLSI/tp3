@@ -36,13 +36,14 @@ public class Portefeuille {
    */
   public boolean achatDevise (double montantEuros){
 	
+    if (montantEuros < 0)
+        return false;
     this.montant += montantEuros / this.monnaie.getValeurDeJeton();
     return true;
   }
 
   /**
-   * Valide si le proprietaire passé en parametre est celui
-   * qui as le portefeuille
+   * Valide si le proprietaire passé en parametre est celx
    * @param proprietaire
    * @return true si les nom du propriétaire est correct
    */
