@@ -38,6 +38,6 @@ Dans ce TP le but est de découvrir le travail en équipe au sein d'un dépôt g
 
 * La gestion des branches est une étape décisive dans la manipulation des fichiers sur GitHub
 * 2 commandes sont donc utiles : 
-** *`git branch` afin de déterminer les branches présentes et celle actuelle avec une *
-** *`git checkout` permet de changer de branche et si suivi de l'extension -b d'en créer une nouvelle et de basculer dessus
-** *`git merge` permet de fusionner les branches présentes du dépôt
+**`git branch` afin de déterminer les branches présentes et celle actuelle avec une *
+**`git checkout` permet de changer de branche et si suivi de l'extension -b d'en créer une nouvelle et de basculer dessus
+**`git merge` permet de fusionner les branches présentes du dépôt
