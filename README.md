@@ -20,7 +20,7 @@ Dans ce TP le but est de découvrir le travail en équipe au sein d'un dépôt g
     
 ## 1ère partie du TP
 
-**L'idée est d'inviter des collaborateurs dans un dépôt personnel afin de travailler ensemble
+**L'idée est d'inviter des collaborateurs dans un dépôt personnel afin de travailler ensemble**
 
 ![image](https://user-images.githubusercontent.com/100925067/231183321-e48aff2c-8c6b-4bcb-9bb6-6e6ef0d7cd92.png)
 
