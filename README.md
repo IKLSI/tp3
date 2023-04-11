@@ -1,43 +1,43 @@
-**Nom :  Lecomte Arthur** <br>
-**Groupe : D**     <br>	
-**Année : 2023**
+**Nom :** LEVESQUE, LE BRETON, MENARD
 
-# Compte-rendu TP1 Introduction GIT
+**Prénom :** Kyliann, Kyllian, Esteban
 
-### Dans ce TP, nous allons apprendre à travailler avec git. <br><br>
+**Equipe :** 12
+
+**Année :** 2023
+
+**IUT Le Havre - TP GIT**
+
+### Compte-rendu TP3 Travailler en équipe sur un depôt github distant
+
+Dans ce TP le but est de découvrir le travail en équipe au sein d'un dépôt github.
+
+## Objectif du TP
+
+* Inviter des collaborateurs dans un dépôt personnel
+* Développement d’un projet java en équipe
+* Gérer des nouvelles fonctionnalités à l’aide des branches
+    
+## 1ère partie du TP
+
+**L'idée est d'inviter des collaborateurs dans un dépôt personnel afin de travailler ensemble
+
+![image](https://user-images.githubusercontent.com/100925067/231183321-e48aff2c-8c6b-4bcb-9bb6-6e6ef0d7cd92.png)
+
+* Utilisation de la commande `gitclone` afin de cloner le dépôt crée sur la machine locale
+* Ajout des dossiers présents dans le tp2 et ajout de fichiers supplémentaires
 
 
-## Notions importantes 
+## 2ème partie du TP
 
-La commande `git status` permet de **voir** les fichiers à inclure dans le dépôt git.
+* Ici il fallait que chacun des 2 utilisateurs modifie une partie d'un fichier et synchronise les modifications apportées avec le dépôt github à l'aide des commandes vu dans les tps précédent
+* Une fois les modifications effectués il reste qu'à exécuter les fichiers et voir que ceci fonctionne grâce aux sorties "OK"
 
-La commande `git add <fichier>` permet de **sélectioner** le fichier (stage) que nous voulons suivre dans le dépôt git.
 
-La commande `git commit -m "Ajoutez ici un petit commentaire pour décrire ce commit"` permet de **valider/enregistrer** les changements dans le dépôt git.
+## 3ème partie du TP
 
-La commande `git log` nous permet de voir toutes les différentes versions enregistrés dans notre dépôt.
-
-## Dans un dépôt GIT un fichier peut avoir 3 états différents :
-
-**Modifié (modified)**: il a des modification locales, il faut sélectionner (stage) pour ensuite valider (commit) ses modifications.
-
-**Sélectionné (staged)**: ses modification ont été sélectionnées (staged) pour être validées (commited).
-
-**Validé (commited)**: il est synchrone avec le dépôt et ne requière pas de validation.
-
-## Ces états correspondent à 3 zones dans un GIT :
-
-**La copie de travail (directory)**, c’est le système de fichier local, zone où les fichiers sont modifiés.
-
-**La zone de sélection (staging area)**.
-Le dépôt où les modifications sont enregistrées sous **forme de validations (commits)**.
-
-## Le passage entre ses 3 états se fait par 3 actions:
-
-**Sélection** (stage) qui sélectionne les fichier pour la validation(commande : `git add`).
-
-**Validation** (commit) qui crée le commit et l’envoie dans le dépôt (commande: `git commit`).
-
-**Récupération** (checkout) qui récupère un snapshot depuis le dépôt vers la copie de travail (commande : `git checkout`).
-
-Nous avons maintenant créé une nouvelle branche de test
+* La gestion des branches est une étape décisive dans la manipulation des fichiers sur GitHub
+* 2 commandes sont donc utiles : 
+** *`git branch` afin de déterminer les branches présentes et celle actuelle avec une *
+** *`git checkout` permet de changer de branche et si suivi de l'extension -b d'en créer une nouvelle et de basculer dessus
+** *`git merge` permet de fusionner les branches présentes du dépôt
